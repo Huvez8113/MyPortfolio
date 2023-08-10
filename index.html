@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Huvez Ahmed Munna</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="Logo.png" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/cf0e20fa4f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="Logo.png" width="80" />
+          <ul id="sidemenu">
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Full Stack Java Developer</p>
+          <h1>
+            Hi, I am <span>Huvez Ahmed PeriyaKulam</span> <br />from Bangalore
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="MyPic.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am Huvez Ahmed PeriyaKulam. Full Stack Java Developer, Video and
+              Photo Editor and I also try to teach coding. Basically I'm from
+              Tirupati and Now I'm living in Bangalore. Talking about myself I
+              did my school and college in Tirupati. And After my graduation I
+              came to Bangalore and joined a course of Full Stack Java
+              Development. I have many topics through this course and Also, I
+              had build many projects through this course. Apart from
+              Programming, I am very much interested in Video and Photo editing.
+              Through Social media, I got to learn many things and Social Media
+              helped me very much to gain more knowledge over many things. And
+              Also when I'm free, I used to watch movies and I also like to
+              travel very much. So, I used to travel within the city.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Front-End Development</span><br />HTML, CSS, JavaScript,
+                  ReactJs, BootStrap
+                </li>
+                <li>
+                  <span>Back-End Development</span><br />C, C++, Java, Python
+                </li>
+                <li><span>DataBase</span><br />MySQL</li>
+                <li><span>MS-Office</span><br />Word, PowerPoint, Excel</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Hardware & Networking</span><br />Worked in Chipset
+                  Computers for 8 months and learnt software installation and
+                  Laptop Hardware.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2023</span><br />Full Stack Java Development Course of 6
+                  Months
+                </li>
+                <li><span>2022</span><br />B.Sc - MSCs with 8.2 GPA</li>
+                <li><span>2019</span><br />InterMediate-MPC with 9.5 GPA</li>
+                <li>
+                  <span>2017</span><br />Secondary School Certificate-10th with
+                  9.5 GPA
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Serivces</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-laptop-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              I can make different types of websites. By Learning different
+              types of Front-End Languages and within that learning differnt
+              types of topics, I will try to make best responsive websites. I
+              can make both Single and Multi-pages Website.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-photo-film"></i>
+            <h2>Photo and Video Editing</h2>
+            <p>
+              I know Photo Editing and Video Editing. I can make photos to a
+              better level. And By using different Apps and in that by using
+              different filters I can make the photos great and stylish. Also I
+              can make videos like for Birthday, Anniversary and some of the
+              Whatsapp Status. By Using different transitions can make the video
+              to another level.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <h2>Hardware and Networking</h2>
+            <p>
+              I also knew Laptop and Desktop Hardware. And I also know different
+              OS Installation such as WIN XP, WIN 7,8,10,11. And also knew some
+              of the Software Installation.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="Shop.jpg" alt="" />
+            <div class="layer">
+              <h3>E-Commerce Website</h3>
+              <p>Shopping Website</p>
+              <a href="https://huvez8113.github.io/PHShopee/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Calci.jpg" alt="" />
+            <div class="layer">
+              <h3>Calculator</h3>
+              <p>Calculator Website</p>
+              <a href="https://huvez8113.github.io/Calculator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="DigiClock.jpg" alt="" />
+            <div class="layer">
+              <h3>Digital Clock</h3>
+              <p>Digital Clock Website</p>
+              <a href="https://huvez8113.github.io/Digital-Clock/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Blog.jpg" alt="" />
+            <div class="layer">
+              <h3>My Blog</h3>
+              <p>Personal Blog Website</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="ATM.jpg" alt="" />
+            <div class="layer">
+              <h3>ATM</h3>
+              <p>ATM machine program</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="TicTacToe.png" alt="" />
+            <div class="layer">
+              <h3>TicTacToe</h3>
+              <p>TicTacToe game Program</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>huvez8113@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>9346884729</p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/huvez_ahmed_munna/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.facebook.com/huvez.ahmed"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/huvez8113"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/huvezahmedmunna8113/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/Huvez8113"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a href="HAM2.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input
+                type="text"
+                name="Name"
+                placeholder="Enter Your Name"
+                required
+              />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Enter Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Enter Your Views"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright © PH made with <i class="fa-solid fa-heart"></i> by Huvez
+          Ahmed Munna
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzCTaXL7LzU4leSOQUiu8wrq1STDIZzqnPJeiRWC6TjGJNMZOYfx82pkFmw_a7eroiDFQ/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message Sent Successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>

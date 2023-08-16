@@ -243,6 +243,13 @@
                 placeholder="Enter Your Email"
                 required
               />
+              <input
+              type="text"
+              pattern="[9876][0-9]{9}"
+              name="Mobile"
+              placeholder="Enter Your Mobile Number"
+              required
+            />
               <textarea
                 name="Message"
                 rows="6"
@@ -275,7 +282,7 @@
             msg.innerHTML = "Message Sent Successfully";
             setTimeout(function () {
               msg.innerHTML = "";
-            }, 5000);
+            }, 1500);
             form.reset();
           })
           .catch((error) => console.error("Error!", error.message));

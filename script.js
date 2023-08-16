@@ -19,3 +19,6 @@ function openmenu(){
 function closemenu(){
     sidemenu.style.right="-200px";
 }
+function learn(){
+    alert("Thank You for your interest on this page, We will soon update this.");
+}
